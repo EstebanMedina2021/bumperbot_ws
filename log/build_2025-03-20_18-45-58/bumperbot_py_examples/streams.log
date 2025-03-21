@@ -1,0 +1,32 @@
+[6.537s] Invoking command in '/home/teban/bumperbot_ws/src/bumperbot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teban/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/teban/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/teban/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[6.881s] running egg_info
+[6.881s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[6.907s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[6.908s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[6.908s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[6.909s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[6.909s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[6.963s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[6.964s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[6.964s] running build
+[6.965s] running build_py
+[6.965s] creating /home/teban/bumperbot_ws/build/bumperbot_py_examples/build
+[6.965s] creating /home/teban/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[6.965s] creating /home/teban/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[6.965s] copying bumperbot_py_examples/__init__.py -> /home/teban/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[6.966s] running install
+[6.973s] running install_lib
+[6.999s] creating /home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.999s] copying /home/teban/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[7.000s] byte-compiling /home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-312.pyc
+[7.000s] running install_data
+[7.000s] creating /home/teban/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[7.000s] creating /home/teban/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[7.001s] creating /home/teban/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[7.001s] copying resource/bumperbot_py_examples -> /home/teban/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[7.001s] copying package.xml -> /home/teban/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[7.001s] running install_egg_info
+[7.030s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[7.031s] running install_scripts
+[7.198s] writing list of installed files to '/home/teban/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[7.231s] Invoked command in '/home/teban/bumperbot_ws/src/bumperbot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/teban/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teban/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/teban/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/teban/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
