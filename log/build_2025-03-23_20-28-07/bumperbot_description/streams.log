@@ -1,0 +1,48 @@
+[0.074s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[0.366s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.398s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.378s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.556s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.146s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.146s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.147s] -- Added test 'lint_cmake' to check CMake code style
+[3.157s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.166s] -- Added test 'xmllint' to check XML markup files
+[3.179s] -- Configuring done (3.0s)
+[3.264s] -- Generating done (0.1s)
+[3.267s] -- Build files have been written to: /home/teban/bumperbot_ws/build/bumperbot_description
+[3.297s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[3.346s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_description
+[3.356s] -- Install configuration: ""
+[3.356s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[3.356s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[3.356s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[3.356s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[3.357s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[3.357s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[3.357s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[3.357s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[3.358s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[3.358s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[3.359s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[3.359s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[3.359s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[3.359s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[3.359s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[3.359s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[3.360s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_description

@@ -1,0 +1,32 @@
+[0.035s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/teban/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/teban/bumperbot_ws/install/bumperbot_msgs
+[2.667s] -- The C compiler identification is GNU 13.3.0
+[3.250s] -- The CXX compiler identification is GNU 13.3.0
+[3.340s] -- Detecting C compiler ABI info
+[3.566s] -- Detecting C compiler ABI info - done
+[3.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.590s] -- Detecting C compile features
+[3.591s] -- Detecting C compile features - done
+[3.631s] -- Detecting CXX compiler ABI info
+[3.773s] -- Detecting CXX compiler ABI info - done
+[3.787s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.787s] -- Detecting CXX compile features
+[3.788s] -- Detecting CXX compile features - done
+[3.873s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.101s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.316s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.486s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.516s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.752s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.797s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.812s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[4.812s]   rosidl_generate_interfaces() the passed file 'srv/GetTransform.srv' doesn't
+[4.813s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.813s]   '/home/teban/bumperbot_ws/src/bumperbot_msgs'
+[4.813s] Call Stack (most recent call first):
+[4.813s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[4.814s] 
+[4.814s] [0m
+[4.814s] -- Configuring incomplete, errors occurred!
+[4.821s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/teban/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/teban/bumperbot_ws/install/bumperbot_msgs

@@ -1,0 +1,65 @@
+[0.030s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.063s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.437s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.449s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.644s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.114s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.253s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.253s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.257s] -- Added test 'lint_cmake' to check CMake code style
+[1.257s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.257s] -- Added test 'xmllint' to check XML markup files
+[1.258s] -- Configuring done (1.2s)
+[1.266s] -- Generating done (0.0s)
+[1.269s] -- Build files have been written to: /home/teban/bumperbot_ws/build/bumperbot_controller
+[1.338s] Built target ament_cmake_python_copy_bumperbot_controller
+[1.722s] running egg_info
+[1.722s] creating bumperbot_controller.egg-info
+[1.756s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.756s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.756s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.758s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.852s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.852s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.901s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.923s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[1.924s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_controller
+[1.937s] -- Install configuration: ""
+[1.938s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.938s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.938s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[1.939s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[1.941s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[2.021s] Listing '/home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[2.021s] Compiling '/home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+[2.021s] Compiling '/home/teban/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py'...
+[2.036s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[2.036s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[2.036s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[2.036s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[2.036s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[2.036s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[2.036s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[2.037s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[2.037s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[2.037s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[2.037s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[2.037s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[2.043s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[2.043s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[2.043s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[2.043s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[2.043s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[2.043s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[2.043s] -- Up-to-date: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[2.044s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.045s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_controller

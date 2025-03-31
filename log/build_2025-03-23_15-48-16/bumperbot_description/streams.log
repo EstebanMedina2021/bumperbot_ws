@@ -1,0 +1,42 @@
+[0.077s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/teban/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/teban/bumperbot_ws/install/bumperbot_description
+[2.341s] -- The C compiler identification is GNU 13.3.0
+[4.166s] -- The CXX compiler identification is GNU 13.3.0
+[4.398s] -- Detecting C compiler ABI info
+[4.881s] -- Detecting C compiler ABI info - done
+[4.892s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.914s] -- Detecting C compile features
+[4.918s] -- Detecting C compile features - done
+[5.001s] -- Detecting CXX compiler ABI info
+[5.214s] -- Detecting CXX compiler ABI info - done
+[5.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.227s] -- Detecting CXX compile features
+[5.227s] -- Detecting CXX compile features - done
+[5.690s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.587s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.894s] -- Added test 'lint_cmake' to check CMake code style
+[6.903s] -- Added test 'xmllint' to check XML markup files
+[6.906s] -- Configuring done (6.7s)
+[6.910s] -- Generating done (0.0s)
+[6.912s] -- Build files have been written to: /home/teban/bumperbot_ws/build/bumperbot_description
+[6.918s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/teban/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/teban/bumperbot_ws/install/bumperbot_description
+[6.919s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[6.970s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/teban/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[6.972s] Invoking command in '/home/teban/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_description
+[6.982s] -- Install configuration: ""
+[6.982s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[6.982s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[6.983s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[6.983s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[6.983s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[6.983s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[6.984s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[6.984s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[6.984s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[6.984s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[6.984s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[6.985s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[6.985s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[6.985s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[6.985s] -- Installing: /home/teban/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[6.988s] Invoked command in '/home/teban/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/teban/bumperbot_ws/build/bumperbot_description
