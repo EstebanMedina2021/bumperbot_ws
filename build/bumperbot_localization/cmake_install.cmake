@@ -74,6 +74,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_localization" TYPE DIRECTORY FILES
+    "/home/teban/bumperbot_ws/src/bumperbot_localization/launch"
+    "/home/teban/bumperbot_ws/src/bumperbot_localization/config"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/teban/bumperbot_ws/build/bumperbot_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization")
 endif()
 

@@ -9,6 +9,8 @@
 /home/teban/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
 /home/teban/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
 /home/teban/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+/home/teban/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+/home/teban/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
 /home/teban/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
 /home/teban/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
 /home/teban/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
